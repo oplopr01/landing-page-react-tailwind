@@ -4,7 +4,6 @@ import Header from './components/Header'
 const App = () => {
   return (
     <div>
-      <p className='text-7xl text-center'>rahu</p>
         <Header/>
     </div>
   )
