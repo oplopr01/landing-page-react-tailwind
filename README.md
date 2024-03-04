@@ -14,3 +14,7 @@ created banner part where three bold big texts are visible, and made it responsi
 
 ======== [  commit 4  ] ========
 
+using react-typed package from NPM site which allows to animate typing diffrent diffrent words.
+command to install --> npm i react-typed --force { using force flag because some dependency mismatch, react prevent from installing that package}
+-
+
