@@ -6,7 +6,7 @@ const Header = () => {
   let [toggle, setToggle] = useState(false)
   return (
     <div className=' bg-[#2196f3] p-4'>
-      <div className='max-w-[1240px] border border-black mx-auto py-[15px] p-3 flex justify-between items-center '>
+      <div className='max-w-[1240px] mx-auto py-[15px] p-3 flex justify-between items-center '>
         <div className='text-4xl font-extrabold'>
           WsCube Tech
         </div>
@@ -19,20 +19,20 @@ const Header = () => {
         
         
           <ul className='hidden sm:flex justify-between gap-3 text-white'>
-          <li>Home</li>
-          <li>Company</li>
-          <li>Resources</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li><a href=''>Home</a></li>
+          <li><a href=''>Company</a></li>
+          <li><a href=''>Resources</a></li>
+          <li><a href=''>About</a></li>
+          <li><a href=''>Contact</a></li>
           </ul>
 
           {/* Responsive Menu start */}
           <ul className={`duration-300 sm:hidden fixed bg-black top-[102px]  text-white w-full h-full  ${toggle ? 'left-[-100%]' : 'left-[0%]'}  `}>
-          <li className='p-2 '>Home</li>
-          <li className='p-2'>Company</li>
-          <li className='p-2'>Resources</li>
-          <li className='p-2'>About</li>
-          <li className='p-2'>Contact</li>
+          <li className='p-2'><a href=''>Home</a></li>
+          <li className='p-2'><a href=''>Company</a></li>
+          <li className='p-2'><a href=''>Resources</a></li>
+          <li className='p-2'><a href=''>About</a></li>
+          <li className='p-2'><a href=''>Contact</a></li>
           </ul>
           {/* Responsive Menu end*/}
 
