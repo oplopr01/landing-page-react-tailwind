@@ -18,3 +18,7 @@ using react-typed package from NPM site which allows to animate typing diffrent 
 command to install --> npm i react-typed --force { using force flag because some dependency mismatch, react prevent from installing that package}
 -
 
+
+======== [  commit 5  ] ========
+
+created "page1" component which will be responsible to show contents of website
