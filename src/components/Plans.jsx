@@ -9,10 +9,10 @@ const Plans = () => {
             </div>
           
              <div className=' h-[400px] bg-red-100 hover:scale-105 duration-[400ms] my-[20px] md:my-[00px]'>
-             <p className='font-bold text-4xl'>Product 1</p>
+             <p className='font-bold text-4xl'>Product 2</p>
              </div>
              <div className=' h-[400px] bg-slate-200 hover:scale-105 duration-[400ms] my-[20px] md:my-[0px]'>
-             <p className='font-bold text-4xl'>Product 1</p>
+             <p className='font-bold text-4xl'>Product 3</p>
              </div>
         </div>
     </div>
