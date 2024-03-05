@@ -19,20 +19,20 @@ const Header = () => {
         
         
           <ul className='hidden sm:flex justify-between gap-3 text-white'>
-          <li><a href=''>Home</a></li>
-          <li><a href=''>Company</a></li>
-          <li><a href=''>Resources</a></li>
-          <li><a href=''>About</a></li>
-          <li><a href=''>Contact</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">Company</a></li>
+          <li><a href="/">Resources</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Contact</a></li>
           </ul>
 
           {/* Responsive Menu start */}
           <ul className={`duration-300 sm:hidden fixed bg-black top-[102px]  text-white w-full h-full  ${toggle ? 'left-[0%]' : 'left-[-100%]'}  `}>
-          <li className='p-2'><a href=''>Home</a></li>
-          <li className='p-2'><a href=''>Company</a></li>
-          <li className='p-2'><a href=''>Resources</a></li>
-          <li className='p-2'><a href=''>About</a></li>
-          <li className='p-2'><a href=''>Contact</a></li>
+          <li className='p-2'><a href="/">Home</a></li>
+          <li className='p-2'><a href="/">Company</a></li>
+          <li className='p-2'><a href="/">Resources</a></li>
+          <li className='p-2'><a href="/">About</a></li>
+          <li className='p-2'><a href="/">Contact</a></li>
           </ul>
           {/* Responsive Menu end*/}
 

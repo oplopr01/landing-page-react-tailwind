@@ -11,7 +11,7 @@ const NewsLetter = () => {
             <input type="text" className='rounded-sm mr-4 p-1 md:p-2 ' placeholder='Email' />
             <button className='p-1 md:p-2 bg-black text-white rounded-md'>CLick here</button>
             <p className='text-[18px] md:text-[20px] font-semibold text-white'>we care about protection of your data. read our</p>
-            <a href="">Privace Policy</a>
+            <a href="/">Privace Policy</a>
         </div>
     </div>
   )
