@@ -1,10 +1,8 @@
 ======   cloning a landing page using ReactJS + only Tailwind css ======
    
+    Live Deployed Link :  https://landing-page-tailwind-react-lakhan.netlify.app/
    
-    ==+ 
-     Live Deployed Link :  https://landing-page-tailwind-react-lakhan.netlify.app/
-    ==+
-
+    
 ======== [  commit 1  ] ========
 
 created navbar with general navbar menu items
