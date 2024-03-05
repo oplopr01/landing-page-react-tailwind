@@ -8,12 +8,12 @@ const Header = () => {
     <div className=' bg-[#2196f3] p-4 sticky top-0'>
       <div className='max-w-[1240px] mx-auto py-[15px] p-3 flex justify-between items-center '>
         <div className='text-4xl font-extrabold'>
-          WsCube Tech
+          LOGO HERE
         </div>
         {
-          toggle ? <AiOutlineMenu onClick={()=>{setToggle(!toggle);}} className='text-white text-3xl sm:hidden block '/> 
+          toggle ? <AiOutlineClose onClick={()=>{setToggle(!toggle);}} className='text-red-800 text-3xl sm:hidden block '/>  
           :
-          <AiOutlineClose onClick={()=>{setToggle(!toggle);}} className='text-red-800 text-3xl sm:hidden block '/> 
+          <AiOutlineMenu onClick={()=>{setToggle(!toggle);}} className='text-white text-3xl sm:hidden block '/> 
 
         }
         
@@ -27,7 +27,7 @@ const Header = () => {
           </ul>
 
           {/* Responsive Menu start */}
-          <ul className={`duration-300 sm:hidden fixed bg-black top-[102px]  text-white w-full h-full  ${toggle ? 'left-[-100%]' : 'left-[0%]'}  `}>
+          <ul className={`duration-300 sm:hidden fixed bg-black top-[102px]  text-white w-full h-full  ${toggle ? 'left-[0%]' : 'left-[-100%]'}  `}>
           <li className='p-2'><a href=''>Home</a></li>
           <li className='p-2'><a href=''>Company</a></li>
           <li className='p-2'><a href=''>Resources</a></li>

@@ -22,3 +22,13 @@ command to install --> npm i react-typed --force { using force flag because some
 ======== [  commit 5  ] ========
 
 created "page1" component which will be responsible to show contents of website
+
+
+======== [  commit 6  ] ========
+
+created newlatter component, which contains some texts and email input place
+
+
+======== [  commit 7  ] ========
+
+created plans conponent, where i can show products in card style, 

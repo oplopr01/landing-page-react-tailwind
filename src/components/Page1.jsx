@@ -8,7 +8,7 @@ const Page1 = () => {
                 <img src={image1} alt="" className=' h-60 w-auto  '/>
             </div>
             <div className=' col-span-1 pt-3 text-justify'>
-                <p className=' font-bold text-green-400'>learn from experts</p>
+                <p className=' font-bold text-green-400'>Construct By Expert</p>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, nihil fugiat reiciendis saepe itaque pariatur optio non temporibus quasi tempora aperia.</p>
                 <button className='m-2 p-2 bg-black text-white font-bold rounded-md mx-auto'>CLick here</button>
 
